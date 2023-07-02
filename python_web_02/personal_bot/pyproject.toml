@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "personal-bot"
+version = "0.1.0"
+description = ""
+authors = ["Gerenzeo <124388411+Gerenzeo@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "personal_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
